@@ -2,6 +2,11 @@ Vic-Paed-Portal
 
 This repo will contain file structure and software used to produce a content-portal designed to connect paediatric doctors with general and victorian-specific medical information
 
+Included Components;
+# jQuery 1.7.1 www.jquery.com
+# jQueryMobile 1.1.0 www.jquerymobile.com
+# jQueryMobile 1.1.0 (docs css) www.jquerymobile.com
+
 
 * Copyright (c) 2012 Lauren Shearer
 * -------------------------------------------------------
