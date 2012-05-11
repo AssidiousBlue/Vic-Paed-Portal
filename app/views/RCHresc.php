@@ -20,7 +20,7 @@ require "header.php"
 		<div data-role="content">
 			<div class="content-primary">		
 				<?php
-				require '../methods/RCHcpgAZ.htm';
+				require '../methods/RCHrescAZ.htm';
 				?>				
 			</div><!--/content-primary -->		
 

@@ -19,9 +19,33 @@ require "header.php"
 
 		<div data-role="content">
 			<div class="content-primary">		
-				<?php
-				require '../methods/RCHpharmAZ.htm';
-				?>				
+
+				<div data-role="collapsible-set" data-collapsed="false" data-theme="b" data-content-theme="d">
+					<div data-role="collapsible">
+						<h3>A</h3>
+						<ul data-role="listview">
+							<li>
+							Link A
+							</li>
+							<li>
+								Link B
+							</li>
+						</ul>
+					</div>
+					<div data-role="collapsible">					
+						<h3>B</h3>
+						<ul data-role="listview">
+							<li>
+							Link C
+							</li>
+							<li>
+								Link D
+							</li>
+						</ul>						
+					</div>
+				</div>
+
+				
 			</div><!--/content-primary -->		
 
 					<div class="content-secondary">

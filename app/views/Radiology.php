@@ -20,15 +20,13 @@ require "header.php"
 		<div data-role="content">
 			<div class="content-primary">		
 				<?php
-				require '../methods/RCHpharmAZ.htm';
+				require '../methods/RCHcpgAZ.htm';
 				?>				
 			</div><!--/content-primary -->		
 
 					<div class="content-secondary">
 
-					<?php
-						require '../methods/quicklinks.htm';
-					?>
+					This is still under construction!
 
 					</div>		
 

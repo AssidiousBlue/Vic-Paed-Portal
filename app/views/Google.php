@@ -19,9 +19,14 @@ require "header.php"
 
 		<div data-role="content">
 			<div class="content-primary">		
-				<?php
-				require '../methods/RCHpharmAZ.htm';
-				?>				
+				<form  method="get" action="http://www.google.com/search" name="SearchGoogle" rel="external">
+					<div data-role="fieldset">
+						<label>
+							<input type="search" tabindex="1" id="txtsearch" name="q" maxlength="200" autocomplete="on">
+						</label>
+					</div>
+					<input value="Search Google" type="submit" tabindex="1">
+				</form>			
 			</div><!--/content-primary -->		
 
 					<div class="content-secondary">
